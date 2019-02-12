@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <title>Worked-Plan</title>
+  <base target="index.html">
+  <link href="style.css" rel="stylesheet">
+  <script src="js.js"></script>
+ </head>  
+ <body onload="plan(), worked()"> 
+    <div class="blok">
+        <div class=" width: 600px; height: 45px;">
+            <input style="float: left" type="button"  name="worked" value="Worked" OnClick="worked()" >
+            <input style="float: right" type="button" name="plan" value="Plan" OnClick="plan()" >
+        </div>
+        
+        <div style=" width: 600px; margin-top:70px;">
+            <div  class="left">
+                <p id="date"></p>
+                <ul id="worked"></ul>
+            </div>
+            <div class="right">
+                <p id="date1"></p>
+                <ul id="plan"></ul>
+            </div>
+        </div>
+</body>
+</html>

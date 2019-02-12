@@ -1,0 +1,23 @@
+ input[type= button] {
+    width: 100px; 
+    height: 45px;
+    font-size: 25px; 
+    margin-top: 5px;
+    outline:none;
+    border: none;
+}
+input[type= button]:hover {
+    background-color: lightgray;
+}
+.blok{
+    width: 600px;
+    height: 500px;
+    border: 3px solid blue;
+}
+.left {
+   float: left;
+}
+.right {
+    float: right;
+    margin-right: 25px;
+}
